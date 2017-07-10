@@ -1,0 +1,23 @@
+#itf_wp_extensions .plugin-card {
+    -webkit-transition: margin linear 200ms;
+    -moz-transition: margin linear 200ms;
+    -ms-transition: margin linear 200ms;
+    -o-transition: margin linear 200ms;
+    transition: margin linear 200ms;
+}
+.extension-icon {
+    border-radius:50%;
+}
+@media (min-width: 782px) {
+    #itf_wp_extensions .plugin-card.the-even {
+        margin-left: 8px !important;
+        margin-right: 0 !important;
+        clear: none;
+    }
+
+    #itf_wp_extensions .plugin-card.the-odd {
+        margin-right: 8px !important;
+        margin-left: 0 !important;
+        clear: both;
+    }
+}

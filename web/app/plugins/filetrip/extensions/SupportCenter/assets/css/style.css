@@ -1,0 +1,128 @@
+.itf_wp-wrap .help_tip {
+    background: #00a0d2;
+    color: #fff;
+    height:20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+span.status-error {
+    background-color: #ff5763;
+    color: #fff;
+    padding:2px 10px;
+}
+span.status-ok {
+    background-color: #4f8c38;
+    color: #fff;
+    padding:2px 10px;
+}
+span.status-warning {
+    background-color: #aaae2f;
+    color: #fff;
+    padding:2px 10px;
+}
+#wordpress-update .spinner,
+.itf_wp-wrap td > .spinner {
+    visibility: visible;
+    float: none;
+    margin-top: 0;
+}
+
+.silphium-auto-patcher.description {
+  background-color: #f1f1f1;
+  font-size: 1.1em;
+  padding: 1em;
+  font-style: normal;
+}
+
+.silphium-auto-patcher.learn-more {
+  float: right;
+}
+
+.silphium-patcher-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-top: 2em;
+}
+
+.silphium-patcher-table .silphium-patcher-headings th,
+.silphium-patcher-table .silphium-patcher-headings td {
+  border-top: none !important;
+  text-transform: uppercase;
+}
+
+.silphium-patcher-table > thead tr th,
+.silphium-patcher-table > thead tr td,
+.silphium-patcher-table > tbody tr th,
+.silphium-patcher-table > tbody tr td,
+.silphium-patcher-table > tfoot tr th,
+.silphium-patcher-table > tfoot tr td {
+  padding: 15px 10px 5px;
+  line-height: 1.5;
+  vertical-align: top;
+  border-top: 1px solid #dedede;
+  text-align: left;
+}
+.silphium-patcher-table > tbody tr .patch-status {
+	text-align: center;
+}
+.silphium-patcher-table > tbody tr .patch-apply .button {
+	float: right;
+}
+.silphium-patcher-table > thead > tr > th {
+  vertical-align: baseline;
+  border-bottom: 2px solid #dedede;
+}
+
+.silphium-patcher-table > caption + thead > thead:first-child > tr:first-child > th,
+.silphium-patcher-table > caption + thead > thead:first-child > tr:first-child > td,
+.silphium-patcher-table > colgroup + thead > thead:first-child > tr:first-child > th,
+.silphium-patcher-table > colgroup + thead > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+.silphium-patcher-table > tbody + tbody {
+  border-top: 2px solid @table-border-color;
+}
+
+.silphium-patcher-table td.patch-date {
+  min-width: 100px;
+}
+
+.silphium-patcher-table td > p {
+  margin-top: 0;
+}
+
+.silphium-patcher-table td p.submit {
+  margin: 0;
+  padding: 0;
+}
+
+.silphium-patcher-table td {
+  border-left: none;
+  border-right: none;
+}
+
+div.itf-featured-support .dashicons
+{
+    position: relative;
+    font-size: 50px;
+    left: -18px;
+    top: -5px;
+}
+
+div.itf-featured-support .col
+{
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div.itf-featured-support *
+{
+  text-align: center;
+  text-decoration: none;
+}

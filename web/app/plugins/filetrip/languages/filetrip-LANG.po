@@ -1,0 +1,1684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: filetrip\n"
+"POT-Creation-Date: 2016-12-31 21:10-0500\n"
+"PO-Revision-Date: 2016-12-31 21:11-0500\n"
+"Last-Translator: \n"
+"Language-Team: iTechFlare <info@itechflare.com>\n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: filetrip.php\n"
+"X-Poedit-SearchPath-1: extensions/classes/class-filetrip-channel-utility."
+"php\n"
+"X-Poedit-SearchPath-2: extensions/classes/class-filetrip-constants.php\n"
+"X-Poedit-SearchPath-3: extensions/classes/class-filetrip-settings.php\n"
+"X-Poedit-SearchPath-4: extensions/classes/class-filetrip-type-registrations."
+"php\n"
+"X-Poedit-SearchPath-5: extensions/classes/class-filetrip-upload-distributer."
+"php\n"
+"X-Poedit-SearchPath-6: extensions/classes/class-filetrip-uploader-recorder."
+"php\n"
+"X-Poedit-SearchPath-7: extensions/classes/class-filetrip-upload-list-table."
+"php\n"
+"X-Poedit-SearchPath-8: includes/backups-table.php\n"
+"X-Poedit-SearchPath-9: includes/arfaly-lib/functions.php\n"
+"X-Poedit-SearchPath-10: includes/arfaly-lib/arfaly-backup/backup-core.php\n"
+"X-Poedit-SearchPath-11: includes/arfaly-lib/arfaly-backup/class-backdrop."
+"php\n"
+"X-Poedit-SearchPath-12: includes/arfaly-lib/arfaly-backup/class-backup.php\n"
+"X-Poedit-SearchPath-13: includes/arfaly-lib/arfaly-backup/class-email.php\n"
+"X-Poedit-SearchPath-14: includes/arfaly-lib/arfaly-backup/class-notices.php\n"
+"X-Poedit-SearchPath-15: includes/arfaly-lib/arfaly-backup/class-requirements."
+"php\n"
+"X-Poedit-SearchPath-16: includes/arfaly-lib/arfaly-backup/class-schedule."
+"php\n"
+"X-Poedit-SearchPath-17: includes/arfaly-lib/arfaly-backup/class-schedules."
+"php\n"
+"X-Poedit-SearchPath-18: includes/arfaly-lib/arfaly-backup/class-services."
+"php\n"
+"X-Poedit-SearchPath-19: includes/arfaly-lib/arfaly-backup/class-webhooks."
+"php\n"
+"X-Poedit-SearchPath-20: includes/arfaly-lib/arfaly-backup/class-webhook-"
+"wpremote.php\n"
+"X-Poedit-SearchPath-21: includes/arfaly-lib/arfaly-backup/namespace.php\n"
+"X-Poedit-SearchPath-22: includes/arfaly-lib/arfaly-backup/server.php\n"
+"X-Poedit-SearchPath-23: includes/arfaly-lib/arfaly-backup/task.php\n"
+"X-Poedit-SearchPath-24: extensions/itechflare-core/Extensions/"
+"CalderaFormsITF/caldera/classes/filetrip-caldera.php\n"
+"X-Poedit-SearchPath-25: extensions/itechflare-core/Extensions/"
+"ContactForm7ITF/gravity-form/class-gf-field-filetrip.php\n"
+"X-Poedit-SearchPath-26: extensions/itechflare-core/Extensions/DriveITF/"
+"gdrive/_setting_page.php\n"
+"X-Poedit-SearchPath-27: extensions/itechflare-core/Extensions/DriveITF/"
+"gdrive/class-filetrip-google-drive.php\n"
+"X-Poedit-SearchPath-28: extensions/itechflare-core/Extensions/DriveITF/"
+"gdrive/class-utilities.php\n"
+"X-Poedit-SearchPath-29: extensions/itechflare-core/Extensions/DropboxITF/"
+"dropbox/_setting_page.php\n"
+"X-Poedit-SearchPath-30: extensions/itechflare-core/Extensions/DropboxITF/"
+"dropbox/class-filetrip-dropbox.php\n"
+"X-Poedit-SearchPath-31: extensions/itechflare-core/Extensions/DropboxITF/"
+"dropbox/class-utilities.php\n"
+"X-Poedit-SearchPath-32: extensions/itechflare-core/Extensions/FtpITF/ftp/"
+"_setting_page.php\n"
+"X-Poedit-SearchPath-33: extensions/itechflare-core/Extensions/FtpITF/ftp/"
+"class-filetrip-ftp.php\n"
+"X-Poedit-SearchPath-34: extensions/itechflare-core/Extensions/FtpITF/ftp/"
+"class-utilities.php\n"
+"X-Poedit-SearchPath-35: extensions/itechflare-core/Extensions/GravityFormITF/"
+"gravity-form/class-gf-field-filetrip.php\n"
+"X-Poedit-SearchPath-36: extensions/itechflare-core/Extensions/GravityFormITF/"
+"gravity-form/config-template.php\n"
+"X-Poedit-SearchPath-37: extensions/itechflare-core/Extensions/ReportingITF/"
+"library/classes/class-arfaly-media-collector.php\n"
+"X-Poedit-SearchPath-38: extensions/itechflare-core/Extensions/ReportingITF/"
+"library/classes/class-arfaly-report-message.php\n"
+"X-Poedit-SearchPath-39: extensions/itechflare-core/Extensions/ReportingITF/"
+"library/classes/class-arfaly-report-page.php\n"
+"X-Poedit-SearchPath-40: extensions/itechflare-core/Extensions/ReportingITF/"
+"library/classes/class-arfaly-report-statistic.php\n"
+"X-Poedit-SearchPath-41: extensions/itechflare-core/Extensions/ReportingITF/"
+"library/classes/class-random-color.php\n"
+"X-Poedit-SearchPath-42: extensions/itechflare-core/Extensions/ReportingITF/"
+"views/upload-report-section.php\n"
+"X-Poedit-SearchPath-43: extensions/itechflare-core/Extensions/SupportCenter/"
+"Screens/SupportCenter-system-info.php\n"
+"X-Poedit-SearchPath-44: extensions/itechflare-core/Extensions/SupportCenter/"
+"Screens/SupportCenter-wp-environment.php\n"
+"X-Poedit-SearchPath-45: extensions/itechflare-core/Extensions/SupportCenter/"
+"Screens/TemplateStatus.php\n"
+"X-Poedit-SearchPath-46: extensions/itechflare-core/Extensions/SupportCenter/"
+"Library/itf-patcher/Libs/silphium-patcher/class-silphium-patcher.php\n"
+"X-Poedit-SearchPath-47: extensions/itechflare-core/Extensions/SupportCenter/"
+"Library/itf-patcher/Libs/silphium-patcher/class-silphium-patcher-admin-"
+"screen.php\n"
+"X-Poedit-SearchPath-48: extensions/itechflare-core/Extensions/SupportCenter/"
+"Library/itf-patcher/Libs/silphium-patcher/class-silphium-patcher-apply-patch."
+"php\n"
+"X-Poedit-SearchPath-49: extensions/itechflare-core/Extensions/SupportCenter/"
+"Library/itf-patcher/Libs/silphium-patcher/class-silphium-patcher-client.php\n"
+"X-Poedit-SearchPath-50: extensions/itechflare-core/Extensions/SupportCenter/"
+"Library/itf-patcher/Libs/silphium-patcher/class-silphium-patcher-filesystem."
+"php\n"
+"X-Poedit-SearchPath-51: extensions/itechflare-core/Extensions/SupportCenter/"
+"Library/itf-patcher/Libs/silphium-patcher/class-silphium-patcher-initiator."
+"php\n"
+"X-Poedit-SearchPath-52: extensions/itechflare-core/Extensions/SupportCenter/"
+"Screens/SupportCenter-system-info.php\n"
+"X-Poedit-SearchPath-53: extensions/itechflare-core/Extensions/SupportCenter/"
+"Screens/SupportCenter-wp-environment.php\n"
+"X-Poedit-SearchPath-54: extensions/itechflare-core/Extensions/SupportCenter/"
+"Screens/TemplateStatus.php\n"
+
+#: extensions/classes/class-filetrip-settings.php:102
+msgid " Settings"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:106
+msgid "MIME Settings"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:115
+msgid "Custom Backup Schedule"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:136
+msgid "Automatically delete files from Wordpress"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:137
+msgid ""
+"Automatically delete files from Wordpress if they have been successfully "
+"sent to all other selected channels."
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:143
+msgid "Notify site admin"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:144
+msgid "Notify admin about new uploads"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:151
+msgid "Notify admin about new backups"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:157
+msgid "Auto-approve user uploads"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:158
+msgid ""
+"<b style=\"color:red\">Not Recommended</b>: <span style=\"font-size:12px"
+"\">Be-careful, by enabling this feature you might make your Users wait for a "
+"long time. As it will take a prolong time to iterate through uploaded files; "
+"and, start forwarding the files into all of your selected channels.</span> "
+"<br><b><span style=\"font-size:10px\">(EXAMPLE: So for a 100MB file with all "
+"channels selected, your server must transfer the same file 4 times to 4 "
+"different channels; which might force it to timeout and generate <b>Error "
+"404</b>)</span>"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:164
+msgid "Disable backups"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:165
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:112
+msgid "Yes"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:171
+msgid "Admin Notification"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:172
+msgid "Message that admin will get on new file upload"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:180
+msgid "Notification email"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:181
+msgid "Leave blank to use site admin email"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:190
+msgid ""
+"Allow extra file types to be uploaded in addition to the extensions allowed "
+"natively by Wordpress"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:200
+msgid "Backup"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:212
+msgid "Schedule"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:228
+msgid "Start day"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:245
+msgid "Start day of month"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:252
+msgid "Start time"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:258
+msgid "Number of backups to store on this server"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:259
+msgid "Past this limit, older backups will be deleted automatically."
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:265
+msgid "Immediate backup"
+msgstr ""
+
+#: extensions/classes/class-filetrip-settings.php:266
+msgid "Backup with the same above settings."
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:49
+msgid " Item"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:50
+msgid "Add New Uploader"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:51
+#: extensions/classes/class-filetrip-type-registrations.php:53
+msgid "Add New "
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:52
+msgid "Edit "
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:54
+msgid "View Item"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:55
+msgid "Search "
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:56
+#: extensions/classes/class-filetrip-type-registrations.php:57
+msgid "No "
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:94
+#: extensions/classes/class-filetrip-type-registrations.php:96
+msgid " Categories"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:95
+msgid " Category"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:97
+#: extensions/classes/class-filetrip-type-registrations.php:139
+#: extensions/classes/class-filetrip-upload-list-table.php:285
+#: extensions/classes/class-filetrip-upload-list-table.php:300
+msgid "Edit"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:98
+#: extensions/classes/class-filetrip-type-registrations.php:140
+msgid "Update"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:99
+#: extensions/classes/class-filetrip-type-registrations.php:141
+msgid "Add New"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:100
+#: extensions/classes/class-filetrip-type-registrations.php:142
+msgid "New"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:101
+#: extensions/classes/class-filetrip-type-registrations.php:102
+#: extensions/classes/class-filetrip-type-registrations.php:143
+#: extensions/classes/class-filetrip-type-registrations.php:144
+msgid "Parent"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:103
+#: extensions/classes/class-filetrip-type-registrations.php:145
+msgid "All"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:104
+#: extensions/classes/class-filetrip-type-registrations.php:146
+msgid "Search"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:105
+#: extensions/classes/class-filetrip-type-registrations.php:147
+msgid "Popular"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:106
+msgid "Separate arfaly categories with commas"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:107
+msgid "Add or remove arfaly categories"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:108
+msgid "Choose from the most used arfaly categories"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:109
+msgid "No arfaly categories found."
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:136
+#: extensions/classes/class-filetrip-type-registrations.php:138
+msgid " Tags"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:137
+msgid " Tag"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:148
+msgid "Separate arfaly tags with commas"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:149
+msgid "Add or remove arfaly tags"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:150
+msgid "Choose from the most used arfaly tags"
+msgstr ""
+
+#: extensions/classes/class-filetrip-type-registrations.php:151
+msgid "No arfaly tags found."
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:51
+#: extensions/classes/class-filetrip-upload-list-table.php:292
+#: extensions/classes/class-filetrip-upload-list-table.php:308
+#: extensions/classes/class-filetrip-upload-list-table.php:314
+msgid "Delete Permanently"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:52
+msgid "Approve & Distribute"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:53
+msgid "Only Approve"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:55
+msgid "Attach to a post"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:78
+msgid "No media attachments found."
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:85
+#: extensions/itechflare-core/Extensions/CalderaFormsITF/caldera/classes/filetrip-caldera.php:51
+msgid "File"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:86
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:117
+#: filetrip.php:564
+msgid "Author"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:89
+msgid "Attached to"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:92
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:115
+msgid "Date"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:93
+msgid "Upload Channels"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:148
+#: extensions/classes/class-filetrip-upload-list-table.php:157
+#, php-format
+msgid "Edit \"%s\""
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:189
+msgid "No Tags"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:204
+msgid "Unpublished"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:206
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:211
+#, php-format
+msgid "%s from now"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:213
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:215
+#: extensions/classes/class-filetrip-upload-list-table.php:252
+msgid "Y/m/d"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:288
+#: extensions/classes/class-filetrip-upload-list-table.php:305
+msgid "Trash"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:294
+#: extensions/classes/class-filetrip-upload-list-table.php:319
+#, php-format
+msgid "View \"%s\""
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:294
+#: extensions/classes/class-filetrip-upload-list-table.php:319
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:113
+msgid "View"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:296
+#: extensions/classes/class-filetrip-upload-list-table.php:360
+msgid "Attach"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:303
+msgid "Restore"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:313
+msgid "Approve"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:354
+msgid "Y/m/d h:m:s"
+msgstr ""
+
+#: extensions/classes/class-filetrip-upload-list-table.php:359
+msgid "(Unattached)"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/CalderaFormsITF/caldera/classes/filetrip-caldera.php:47
+#: extensions/itechflare-core/Extensions/CalderaFormsITF/caldera/classes/filetrip-caldera.php:48
+msgid "Filetrip Uploader"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/CalderaFormsITF/caldera/classes/filetrip-caldera.php:51
+msgid "Basic"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/_setting_page.php:28
+msgid "Google Drive API settings"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/_setting_page.php:39
+msgid "Google Drive client ID"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/_setting_page.php:40
+msgid ""
+"You shall create your own app <a target=\"_blank\" href=\"https://console."
+"developers.google.com\"><b>Create your Google Drive application now</b></a>"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/_setting_page.php:46
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/_setting_page.php:47
+msgid "Google Drive client secret"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/_setting_page.php:53
+msgid "Google Drive app redirect URL"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/_setting_page.php:54
+msgid "This must be identical to your Google Drive app configuration"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DriveITF/gdrive/class-filetrip-google-drive.php:257
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/class-filetrip-dropbox.php:269
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/class-filetrip-ftp.php:374
+msgid "No files in this folder"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/_setting_page.php:28
+msgid "Dropbox API settings"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/_setting_page.php:39
+msgid "Dropbox app key"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/_setting_page.php:40
+msgid ""
+"You shall create your own app <a target=\"_blank\" href=\"https://www."
+"dropbox.com/developers/apps\">visit</a>"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/_setting_page.php:46
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/_setting_page.php:47
+msgid "Dropbox app secret"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/_setting_page.php:60
+msgid "Authorization Code"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/DropboxITF/dropbox/_setting_page.php:61
+msgid "Please paste your authorization code here"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:28
+msgid "FTP settings"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:39
+msgid "FTP hostname or IP"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:40
+msgid "FTP hostname"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:47
+msgid "FTP port"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:48
+msgid "The default is 21"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:54
+msgid "FTP Username"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:55
+msgid "Please enter the username for FTP access"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:61
+msgid "FTP password"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/FtpITF/ftp/_setting_page.php:62
+msgid "Please enter the password for FTP access"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/GravityFormITF/gravity-form/class-gf-field-filetrip.php:52
+msgid ""
+"Please update Filetrip shortcode ID in your form to be able to render the "
+"uploader"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:110
+#: includes/backups-table.php:8
+msgid "Size"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:114
+msgid "Name"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:116
+#: includes/backups-table.php:9
+msgid "Type"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:118
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:155
+msgid "Approved"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:155
+msgid "Not Approved"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:169
+msgid "Document"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:173
+msgid "Slide"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:177
+msgid "Archive"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:181
+msgid "Audio"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:185
+msgid "Video"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:189
+msgid "Image"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:193
+msgid "Code"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-media-collector.php:197
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:103
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:118
+msgid "Unknown"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/library/classes/class-arfaly-report-page.php:44
+msgid "Reporting"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:48
+msgid " Report Page"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:54
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:97
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:103
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:121
+msgid ""
+"Choose date range and click update to get statistics for the selected time "
+"period"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:67
+msgid "Top 10 Uploaders"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:71
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:79
+msgid "Count by type"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:91
+msgid "Legend"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:92
+msgid "Total Statistics"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:93
+msgid "Partial Statistics <br>Based on selected date range"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:96
+msgid "Total Uploads"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:102
+msgid "Total Disk Space Usage"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:108
+msgid "Selected Total Uploads"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:109
+msgid "This is the total number of uploads for the selected period"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:114
+msgid "Hard Disk Space Usage"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:115
+msgid ""
+"This is the total size of hard disk usage for the uploads in the selected "
+"period"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:120
+msgid "Avg Upload"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:123
+msgid "  / Day"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:126
+msgid "Approved Uploads"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:127
+msgid "Number of uploads been approved, within the selected period of time"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:132
+msgid "Not-Approved Uploads"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/ReportingITF/views/upload-report-section.php:133
+msgid ""
+"Number of uploads need to be approved, within the selected period of time"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Library/itf-patcher/Libs/silphium-patcher/class-silphium-patcher-initiator.php:45
+msgid "Fix Center"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:6
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:15
+msgid "Server Environment"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:21
+msgid "Server Address"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:27
+msgid "You are running on local development."
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:33
+msgid "Web Server"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:38
+msgid "Apache Web Server"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:40
+msgid "IIS 7 Web Server"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:42
+msgid "IIS Web Server"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:44
+msgid "NGINX Web Server"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:46
+msgid "Unknown Web Server"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:51
+msgid "Server Info"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:68
+msgid "Operating System"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:84
+msgid "Architecture"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:85
+msgid "Kernel / Version"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:86
+msgid "Node Name"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:87
+msgid "Server Software"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:91
+msgid "Connection Type"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:97
+msgid "SSL Connection"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:98
+msgid "Standard HTTP Connection"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:101
+msgid "Document Root"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:106
+msgid "PHP Version"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:110
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:202
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:61
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/TemplateStatus.php:26
+msgid "Version"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:111
+msgid "Using HHVM"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:115
+msgid "Recommended PHP Version is 5.7 or later."
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:123
+msgid "PHP Time Limit"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:129
+#, php-format
+msgid ""
+"Recommended setting max execution time to at least 180. <br />See: <a href="
+"\"%1$s\" target=\"_blank\">Increasing max execution to PHP</a>"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:136
+msgid "MySQL Version"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:147
+msgid "Max Upload Size"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:155
+#, php-format
+msgid "Recommended Minimum Upload Size is %1$s"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:160
+msgid "Memory Usage"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:169
+msgid "Your WordPress site consume too much memory."
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:172
+#, php-format
+msgid "Memory used by your WordPress site is above average of %1$s"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:178
+msgid "ZipArchive"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:180
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:185
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:190
+msgid "Installed"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:180
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:112
+msgid "No"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:180
+msgid ""
+"ZipArchive is not installed on your server, but is required for some "
+"resource."
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:183
+msgid "DOMDocument"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:185
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:190
+msgid "Not Installed"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:185
+msgid ""
+"DOMDocument is not installed on your server, but is required for some "
+"resource."
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:188
+msgid "IonCube Loader"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:190
+msgid ""
+"IonCube Loader is required for some plugins that encoded by ioncube "
+"encryption."
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:193
+msgid "GD Library"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:210
+msgid "SSL Connection Test"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:215
+msgid "GitHub Test"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:220
+msgid "WordPress Test"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-system-info.php:229
+msgid "Show PHP Info"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:6
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:15
+msgid "WordPress Environment"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:19
+msgid "WordPress Version"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:26
+msgid "Requesting info ..."
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:30
+msgid "Home Url"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:37
+msgid "Site Url"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:44
+msgid "Site Directory"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:51
+msgid "wp-content Directory"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:58
+msgid "Active Theme"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:66
+#, php-format
+msgid ""
+"Your active theme currently as child theme of : <strong>%1$s</strong> "
+"Version : %2$s"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:74
+msgid "Theme Author"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:81
+msgid "Theme Uri"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:88
+msgid "Debug Mode"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:93
+msgid "Active"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:94
+msgid "You are in debug mode, make sure you are not in production site"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:96
+msgid "Inactive"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:102
+msgid "Language"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:109
+msgid "Multi Site"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:116
+msgid "Comments"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:121
+msgid "Total Comments"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:122
+msgid "Comments in Moderation"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:123
+msgid "Comments Approved"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:124
+msgid "Comments in Trash"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:125
+msgid "Comments in Spam"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:130
+msgid "Posts"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:135
+msgid "Total Posts"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:136
+msgid "Published Posts"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:137
+msgid "Draft Posts"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:138
+msgid "Posts in Trash"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:143
+msgid "Pages"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:148
+msgid "Total Pages"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:149
+msgid "Published Pages"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:150
+msgid "Draft Pages"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/SupportCenter-wp-environment.php:151
+msgid "Pages in Trash"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/TemplateStatus.php:14
+#, php-format
+msgid "Welcome to %1$s"
+msgstr ""
+
+#: extensions/itechflare-core/Extensions/SupportCenter/Screens/TemplateStatus.php:20
+msgid "Version "
+msgstr ""
+
+#: filetrip.php:94
+msgid "Filetrip"
+msgstr ""
+
+#: filetrip.php:429
+msgid "Enter Upload Title"
+msgstr ""
+
+#: filetrip.php:430
+msgid "Enter Upload Description"
+msgstr ""
+
+#: filetrip.php:431
+msgid "Enter your email"
+msgstr ""
+
+#: filetrip.php:432
+msgid "Enter your name"
+msgstr ""
+
+#: filetrip.php:433
+msgid "Allowed file types are gif, jpg, and png."
+msgstr ""
+
+#: filetrip.php:434
+msgid "Drop files here"
+msgstr ""
+
+#: filetrip.php:435
+msgid "Everything going well so far!"
+msgstr ""
+
+#: filetrip.php:436
+msgid "Upload"
+msgstr ""
+
+#: filetrip.php:437
+msgid "Preview"
+msgstr ""
+
+#: filetrip.php:438 includes/arfaly-lib/arfaly-backup/backup-core.php:98
+msgid "Delete"
+msgstr ""
+
+#: filetrip.php:439
+msgid "Are you sure you want to delete the file?"
+msgstr ""
+
+#: filetrip.php:565
+msgid "Shortcode"
+msgstr ""
+
+#: filetrip.php:581
+msgid "Unable to get quality"
+msgstr ""
+
+#: filetrip.php:623 filetrip.php:641
+msgid "New "
+msgstr ""
+
+#: filetrip.php:734
+msgid "Invalid upload format."
+msgstr ""
+
+#: filetrip.php:916
+#, php-format
+msgid "File size has exceeded the limit (%s)!"
+msgstr ""
+
+#: filetrip.php:926
+msgid "Invalid upload request!"
+msgstr ""
+
+#: filetrip.php:940
+msgid "Failed to open output stream."
+msgstr ""
+
+#: filetrip.php:946
+msgid "Failed to move uploaded file."
+msgstr ""
+
+#: filetrip.php:952 filetrip.php:957
+msgid "Failed to open input stream."
+msgstr ""
+
+#: filetrip.php:991
+msgid "Upload function failed"
+msgstr ""
+
+#: filetrip.php:1002
+msgid "Error fetching image url!"
+msgstr ""
+
+#: filetrip.php:1024
+#, php-format
+msgid "%s Has been successfully uploaded!"
+msgstr ""
+
+#: filetrip.php:1241
+msgid "Manage "
+msgstr ""
+
+#: filetrip.php:1244
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: filetrip.php:1253
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: filetrip.php:1265 filetrip.php:1295
+msgid "Media attachment updated."
+msgstr ""
+
+#: filetrip.php:1282 filetrip.php:1298
+msgid "Undo"
+msgstr ""
+
+#: filetrip.php:1296
+msgid "Media permanently deleted."
+msgstr ""
+
+#: filetrip.php:1297
+msgid "Error saving media attachment."
+msgstr ""
+
+#: filetrip.php:1298
+msgid "Media moved to the trash."
+msgstr ""
+
+#: filetrip.php:1299
+msgid "Media restored from the trash."
+msgstr ""
+
+#: filetrip.php:1313
+msgid "Search Media"
+msgstr ""
+
+#: filetrip.php:1418
+msgid "You are not allowed to approve this file upload."
+msgstr ""
+
+#: filetrip.php:1537
+msgid "Backup type cannot be empty"
+msgstr ""
+
+#: filetrip.php:1541
+msgid "Invalid backup type"
+msgstr ""
+
+#: filetrip.php:1555
+msgid "Schedule cannot be empty"
+msgstr ""
+
+#: filetrip.php:1559
+msgid "Invalid schedule"
+msgstr ""
+
+#: filetrip.php:1573
+msgid "Day of the week must be a valid lowercase day name"
+msgstr ""
+
+#: filetrip.php:1592
+msgid "Day of month must be between 1 and 31"
+msgstr ""
+
+#: filetrip.php:1611
+msgid "Hours must be between 0 and 23"
+msgstr ""
+
+#: filetrip.php:1630
+msgid "Minutes must be between 0 and 59"
+msgstr ""
+
+#: filetrip.php:1644
+msgid "Max backups can't be empty"
+msgstr ""
+
+#: filetrip.php:1648
+msgid "Max backups must be a number"
+msgstr ""
+
+#: filetrip.php:1652
+msgid "Max backups must be greater than 0"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:20
+#, php-format
+msgid "BackUpWordPress requires WordPress version %s or greater."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:20
+msgid "BackUpWordPress"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:47
+msgid "No backups completed"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:49
+msgid "Backup completed"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:58
+msgid "Database and Files"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:61
+msgid "Files"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:64
+msgid "Database"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:69
+msgid "Legacy"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:95
+msgid "Download"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:441
+msgid "Once Hourly"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:442
+msgid "Twice Daily"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:443
+msgid "Once Daily"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:444
+msgid "Once Weekly"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:445
+msgid "Once Biweekly"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:446
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:464
+msgid "You can only delete directories inside your WordPress installation"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/backup-core.php:529
+#, php-format
+msgid ""
+"This %s file ensures that other people cannot download your backup files."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-backup.php:286
+msgid "archive filename must be a non empty string"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-backup.php:289
+#, php-format
+msgid "invalid file extension for archive filename <code>%s</code>"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-backup.php:329
+msgid "database dump filename must be a non empty string"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-backup.php:332
+#, php-format
+msgid "invalid file extension for database dump filename <code>%s</code>"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-backup.php:363
+#, php-format
+msgid "Invalid root path <code>%s</code> must be a valid directory path"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-backup.php:392
+#, php-format
+msgid "Invalid backup path <code>%s</code> must be a non empty (string)"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-backup.php:444
+#, php-format
+msgid ""
+"Invalid backup type <code>%s</code> must be one of (string) file, database "
+"or complete"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:26
+msgid "Email notification"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:32
+#, php-format
+msgid ""
+"Receive a notification email when a backup completes, if the backup is small "
+"enough (&lt; %s) then it will be attached to the email. Separate multiple "
+"email addresses with a comma."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:58
+#, php-format
+msgid "You've set it to: %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:61
+#, php-format
+msgid ""
+"The maximum filesize of your backup that will be attached to your "
+"notification emails . Defaults to %s."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:61
+msgid "e.g."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:80
+#, php-format
+msgid "Send an email notification to %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:115
+#, php-format
+msgid "%s isn't a valid email"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:175
+#: includes/arfaly-lib/arfaly-backup/class-webhooks.php:58
+#, php-format
+msgid "Backup of %s Failed"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:177
+#, php-format
+msgid "BackUpWordPress was unable to backup your site %1$s."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:177
+msgid "Here are the errors that we're encountered:"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:177
+#, php-format
+msgid ""
+"If the errors above look like Martian, forward this email to %3$s and we'll "
+"take a look"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:177
+msgid ""
+"Kind Regards,\n"
+"The Apologetic BackUpWordPress Backup Emailing Robot"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:185
+#, php-format
+msgid "Backup of %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:190
+#: includes/arfaly-lib/arfaly-backup/class-email.php:199
+#, php-format
+msgid "BackUpWordPress has completed a backup of your site %1$s."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:190
+msgid "The backup file should be attached to this email."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:190
+#: includes/arfaly-lib/arfaly-backup/class-email.php:199
+msgid "You can download the backup file by clicking the link below:"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:190
+#: includes/arfaly-lib/arfaly-backup/class-email.php:199
+msgid ""
+"Kind Regards,\n"
+"The Happy BackUpWordPress Backup Emailing Robot"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-email.php:199
+msgid "Unfortunately the backup file was too large to attach to this email."
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:245
+#, php-format
+msgid "Argument 1 for %s must be a valid integer"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:600
+#, php-format
+msgid "Argument 1 for %s must be a valid future timestamp"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:638
+#, php-format
+msgid "Argument 1 for %s must be a valid cron reoccurrence or \"manually\""
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:773
+msgid "Starting Backup"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:903
+#, php-format
+msgid "Dumping Database %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:908
+#, php-format
+msgid "Verifying Database Dump %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:913
+#, php-format
+msgid "Creating zip archive %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:918
+#, php-format
+msgid "Verifying Zip Archive %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:923
+msgid "Finishing Backup"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:1032
+#, php-format
+msgid "Argument 1 for %s must be a non empty string"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:1037
+#, php-format
+msgid "%s doesn't exist"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-schedule.php:1042
+msgid "That backup wasn't created by this schedule"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-services.php:278
+#, php-format
+msgid "Argument 1 for %s must be a valid filepath"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-services.php:293
+#, php-format
+msgid "Argument 1 for %s must be a registered service"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-services.php:310
+#, php-format
+msgid "Argument 1 for %s must be a valid class"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/class-webhooks.php:102
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/server.php:6
+msgid "No key supplied"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/server.php:11
+msgid "Supplied key was not valid"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/task.php:22
+msgid "Task is already scheduled to run"
+msgstr ""
+
+#: includes/arfaly-lib/arfaly-backup/task.php:41
+msgid "Task is not scheduled to run"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:15 includes/arfaly-lib/functions.php:24
+msgid "Compressed File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:33
+msgid "Drawing Exchange Format"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:43
+msgid "Architecture Design Format"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:53
+msgid "Scalable Vector Graphics"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:61
+msgid "Encapsulated PostScript"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:69
+msgid "Adobe Illustrator"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:77
+msgid "Photoshop"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:85
+msgid "Tagged Image File Format"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:93
+msgid "Microsoft Word Document"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:101
+msgid "Microsoft Word Open XML Document"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:109
+msgid "Excel Spreadsheet"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:124
+msgid "Microsoft Excel Open XML Spreadsheet"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:132
+msgid "Portable Document Format File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:145
+msgid "Adobe Photoshop Document"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:159
+msgid "Comma Separated Values File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:173
+msgid "PowerPoint Presentation"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:185
+msgid "PowerPoint Open XML Presentation"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:193
+msgid "MP3 Audio File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:209
+msgid "Audio Video Interleave File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:224
+msgid "MPEG-4 Video File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:233
+msgid "MPEG-4 Audio File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:239
+msgid "Apple QuickTime Movie"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:253
+msgid "MPEG Video File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:270
+msgid "MIDI File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:283
+msgid "WAVE Audio File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:294
+msgid "Windows Media Audio File"
+msgstr ""
+
+#: includes/arfaly-lib/functions.php:303
+msgid "Windows Media Video File"
+msgstr ""
+
+#: includes/backups-table.php:10
+msgid "Actions"
+msgstr ""
+
+#: includes/backups-table.php:11
+msgid "Send to cloud"
+msgstr ""
+
+#: includes/backups-table.php:35
+msgid "This is where your backups will appear once they are been generated."
+msgstr ""
